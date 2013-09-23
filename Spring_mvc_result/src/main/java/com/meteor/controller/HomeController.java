@@ -39,7 +39,10 @@ public class HomeController {
 		return "home";
 	}
 	
-	
+/*
+출력해줄 객체 형식으로 반환 하며 
+@ResponseBody 어노테이션 설정	
+*/	
 	@RequestMapping(value = "/result", method = RequestMethod.GET)
 	public @ResponseBody Book get() {
 		
