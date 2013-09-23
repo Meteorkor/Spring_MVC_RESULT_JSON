@@ -1,5 +1,10 @@
 package com.meteor.model;
 
+
+/*
+ * JSON 을 출력하는데 MODEL이 되는 클래스 
+ * 
+*/
 public class Book {
 
 	String name;
